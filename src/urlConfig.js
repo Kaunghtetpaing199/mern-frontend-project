@@ -1,1 +1,1 @@
-export const api = "http://localhost:3000/api";
+export const api = "https://safe-basin-94613.herokuapp.com/api";
