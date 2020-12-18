@@ -17,7 +17,7 @@ const App = () => {
     if (!auth.authenticate) {
       dispatch(isUserLoggedIn());
     }
-  }, [auth.authenticate]);
+  }, [auth.authenticate, dispatch]);
   return (
     <>
       <Navbar />
